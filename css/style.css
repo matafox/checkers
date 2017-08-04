@@ -1,0 +1,215 @@
+.pm-checkers {
+    max-width: 500px;
+    max-height: 500px;
+    background: url("../img/r_doska1.jpg");
+    margin: 100px auto 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+/*Box*/
+
+.pm-checkers__box {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.pm-checkers__box--1 {
+    right: 55px;
+    top: 55px;
+}
+
+.pm-checkers__box--2 {
+    right: 150px;
+    top: 55px;
+}
+
+.pm-checkers__box--3 {
+    right: 257px;
+    top: 55px;
+}
+
+.pm-checkers__box--4 {
+    right: 352px;
+    top: 55px;
+}
+
+.pm-checkers__box--5 {
+    right: 55px;
+    top: 155px;
+}
+
+.pm-checkers__box--6 {
+    right: 106px;
+    top: 105px;
+}
+
+.pm-checkers__box--7 {
+    right: 157px;
+    top: 155px;
+}
+
+.pm-checkers__box--8 {
+    right: 202px;
+    top: 105px;
+}
+
+.pm-checkers__box--9 {
+    right: 254px;
+    top: 155px;
+}
+
+.pm-checkers__box--10 {
+    right: 309px;
+    top: 105px;
+}
+
+.pm-checkers__box--11 {
+    right: 356px;
+    top: 155px;
+}
+
+.pm-checkers__box--12 {
+    right: 405px;
+    top: 105px;
+}
+
+/*Whitebox*/
+
+.pm-checkers__whitebox {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.pm-checkers__whitebox--13 {
+    left: 56px;
+    top: 405px;
+}
+
+.pm-checkers__whitebox--14 {
+    left: 56px;
+    top: 303px;
+}
+
+.pm-checkers__whitebox--15 {
+    left: 106px;
+    top: 355px;
+}
+
+.pm-checkers__whitebox--16 {
+    left: 154px;
+    top: 303px;
+}
+
+.pm-checkers__whitebox--17 {
+    left: 155px;
+    top: 403px;
+}
+
+.pm-checkers__whitebox--18 {
+    left: 253px;
+    top: 303px;
+}
+
+.pm-checkers__whitebox--19 {
+    left: 202px;
+    top: 353px;
+}
+
+.pm-checkers__whitebox--20 {
+    left: 252px;
+    top: 403px;
+}
+
+.pm-checkers__whitebox--21 {
+    left: 355px;
+    top: 304px;
+}
+
+.pm-checkers__whitebox--22 {
+    left: 305px;
+    top: 354px;
+}
+
+.pm-checkers__whitebox--23 {
+    left: 355px;
+    top: 404px;
+}
+
+.pm-checkers__whitebox--24 {
+    left: 407px;
+    top: 354px;
+}
+
+
+/* Layout */
+.pm-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+    -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+    -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+    transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="submit"],
+input[type="button"],
+button,
+.pm-button {
+    display: inline-block;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.pm-button:hover {
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+    -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+    -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+    transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+
+textarea {
+
+}
